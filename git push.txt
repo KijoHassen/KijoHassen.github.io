@@ -1,4 +1,0 @@
-git pull origin
-git ad "文件名"
-git commit -m "注释"
-git push -u origin main
