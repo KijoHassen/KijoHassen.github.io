@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-$ git rm example.txt   # 删除文件
-$ git add .            # 添加删除操作到暂存区
-=======
-$ git rm example.txt   # 删除文件
-$ git add .            # 添加删除操作到暂存区
->>>>>>> e0755660c5486f65e400d6b0b31afa3896253f49
-$ git commit -m "Delete example.txt"   # 提交更改
