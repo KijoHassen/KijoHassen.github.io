@@ -2,3 +2,4 @@ git pull origin
 git add "文件名"
 git commit -m "注释"
 git push -u origin main
+git push "文件名" -f #强制推送
