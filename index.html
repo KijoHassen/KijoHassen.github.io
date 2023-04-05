@@ -1,9 +1,123 @@
 <html>
+
  <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>homepage</title>
+    <title>Homepage</title>
   </head>
+  <!--以下是导航栏设置-->
+  <style>
+    .nav{
+    height: 40px;
+    background: #333;
+    /* 给它个阴影 */
+    box-shadow: 0 1px 2px #666;
+    }
+    /* 去掉各种不必要 */
+    *{
+    /* 内外边距为0 */
+    margin: 0;
+    padding: 0;
+    /* 各种列表样式为空 */
+    text-decoration: none;
+    list-style: none;
+    }
+    .btli{
+    /* 左浮动，让它们横排 */
+    float: left;
+    /* 设置宽和行高 */
+    width: 100px;
+    line-height: 40px;
+    /* 对齐方式是水平居中 */
+    text-align: center;
+    }
+    .navlist a{
+    /* 超链接的字为白色 */
+    color: #fff;
+    /* 让它以块模式来显示 */
+    display: block;
+    }
+    /* 鼠标悬停时背景变色 */
+    .navlist a:hover{
+    background: #666;
+    }
+    .droplist{
+    /* 改变下拉列表的颜色 */
+    background: #333;
+    /* 给它加个阴影 */
+    box-shadow: 0 1px 2px #333;
+    /* 让它不显示 */
+    display: none;
+    /* 我们把列表变圆角，这样好看一点 */
+    border-radius: 6px;
+    /* 把超出来的部分隐藏 */
+    overflow: hidden;
+    }
+    /* 让鼠标移到导航项时，下拉显示 */
+    .btli:hover .droplist{
+    display: block;
+    }
+    .droplist li{
+    /* 给它每一个项加一条线隔开 */
+    border-top: 1px solid #666;
+    }
+  </style>
+  <!--以下是导航栏主体-->
+  <body>
+    <!-- 我们先做出导航条 -->
+    <div class="nav">
+    <ul class="navlist">
+    <!-- 我们开始做下拉列表 -->
+    <!-- 复制出多个列表 -->
+    <li class="btli"><a href="#">导航项</a>
+    <ul class="droplist">
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    </ul>
+    </li>
+    <li class="btli"><a href="#">导航项</a>
+    <ul class="droplist">
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    </ul>
+    </li>
+    <li class="btli"><a href="#">导航项</a>
+    <ul class="droplist">
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    </ul>
+    </li>
+    <li class="btli"><a href="#">导航项</a>
+    <ul class="droplist">
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    </ul>
+    </li>
+    <li class="btli"><a href="#">导航项</a>
+    <ul class="droplist">
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    <li><a href="#">我是下拉</a></li>
+    </ul>
+    </li>
+    </ul>
+    </div>
+  </body>
+  <!--以下是页面主体-->
   <body>
     <div class="main_page">
       <div class="page_header floating_element">
@@ -17,67 +131,58 @@
 
         <div class="section_header section_header_red">
           <div id="about"></div>
-          甲
+          Basic info.
         </div>
         <div class="content_section_text">
           <p>
-           输入
+           Hello World!
+           I'm Kijo Hassen.
+           Welcome to my little universe.
+          </p>
+          <p>
+           ------------------------------------------------------------------
+          </p>
+          <p>
+            GitHub:<a href="https://github.com/Zack-Bright" target="_blank" title="GitHub">Zack-Bright</a>
+          </p>
+          <p>
+            Bilibili:<a href="https://space.bilibili.com/290470461?spm_id_from=333.1007.0.0" target="_blank" title="Bilibili">Dr-Zack-Bright</a>
           </p>
         </div>
         <div class="section_header">
           <div id="changes"></div>
-                乙
+                Archives
         </div>
         <div class="content_section_text">
-          <p>
-            输入
-          </p>
-          <pre>
-方框
-          </pre>
-          <ul>
-                        <li>
-                           子
-                        </li>
-
-                        <li>
-                           丑
-                        </li>
-
-                        <li>
-                           寅
-                        </li>
-
-                        <li>
-                           卯
-                        </li>
-          </ul>
+          No data.
         </div>
 
         <div class="section_header">
             <div id="docroot"></div>
-                丙
+                Videos
+        
         </div>
 
         <div class="content_section_text">
-            <p>
-                乾坎艮震
-            </p>
-            <p>
-                巽离坤兑
-            </p>
+            <li>
+              第一个投稿视频：<a href="https://www.bilibili.com/video/BV1pb411R7fm/?spm_id_from=333.999.0.0&vd_source=abd032c4a0b818a2af15a1c8d6478b5e" target="_blank" title="">《〈胡〉言乱语》——用IPA为胡桃拟音</a>
+            </li>
+            <li>
+              world.execute(me);同人PV：<a href="https://www.bilibili.com/video/BV1sx411C75U/?spm_id_from=333.788.recommend_more_video.1&vd_source=abd032c4a0b818a2af15a1c8d6478b5e" target="_blank" title="">【Eodslv】world.execute(me);（完整版）【同人PV】</a>
+            </li>
+            <li>
+              world.execute(me);原PV：<a href="https://www.bilibili.com/video/BV1ds411e7df/?spm_id_from=333.999.0.0&vd_source=abd032c4a0b818a2af15a1c8d6478b5e" target="_blank" title="">【Mili】world.execute(me);</a>
+            </li>
         </div>
 
         <div class="section_header">
           <div id="bugs"></div>
-                丁
+                Musics
         </div>
         <div class="content_section_text">
-          <p>
-                天地人
-          </p>
-          <p>
-                日月星
+          <li>
+           V家力作《牛顿之舞》：<a href="https://music.163.com/#/song?id=1885752786" target="_blank" title="">ニュートンダンス (ナユタン星人×Chinozo)</a>
+          </li>
         </div>
 
 

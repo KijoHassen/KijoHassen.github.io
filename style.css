@@ -6,7 +6,7 @@
   body, html {
     padding: 3px 3px 3px 3px;
 
-    background-color: #D8DBE2;
+    background-color: #ffffff;
 
     font-family: Verdana, sans-serif;
     font-size: 11pt;
@@ -28,7 +28,7 @@
     border-color: #212738;
     border-style: solid;
 
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 
     text-align: center;
   }
@@ -37,7 +37,7 @@
     height: 99px;
     width: 100%;
 
-    background-color: #F5F6F7;
+    background-color: #ffffff;
   }
 
   div.page_header span {
@@ -105,7 +105,7 @@
     border-style: dotted;
     border-color: #000000;
 
-    background-color: #F5F6F7;
+    background-color: #ffffff;
 
     font-style: italic;
   }
@@ -121,7 +121,7 @@
   div.section_header {
     padding: 3px 6px 3px 6px;
 
-    background-color: #8E9CB2;
+    background-color: #000000;
 
     color: #FFFFFF;
     font-weight: bold;
@@ -130,7 +130,7 @@
   }
 
   div.section_header_red {
-    background-color: #CD214F;
+    background-color: #0000ff;
   }
 
   div.section_header_grey {
@@ -172,7 +172,4 @@
     background-color: #000000;
 
     color: #DCDFE6;
-  }
-
-  div.validator {
   }
